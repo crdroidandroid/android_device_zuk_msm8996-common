@@ -546,6 +546,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
+
     <integer name="config_deviceHardwareWakeKeys">1</integer>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
@@ -569,4 +570,7 @@
 
     <!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
+
+    <!-- Flashlight on power button -->
+    <integer name="config_flashlightProximityTimeout">3000</integer>
 </resources>
